@@ -11,6 +11,6 @@ def replace_string(filename, data):
                     if old_text in inline[i].text:
                         text = inline[i].text.replace(old_text, new_text)
                         inline[i].text = text
-                print p.text
+                #print p.text
     doc.save('modify_input.docx')
     return 1

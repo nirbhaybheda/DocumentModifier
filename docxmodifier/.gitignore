@@ -1,0 +1,14 @@
+# python files
+*.py[cod]
+
+# packages
+
+
+# logs
+*.log
+
+# vim swap files
+*.swp
+
+# hidden files
+.*
